@@ -1,0 +1,17 @@
+/* src/index.css or src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer-text {
+  font-family: "Roboto", sans-serif; /* Use Roboto for footer text */
+  font-size: 14px; /* Define the font size */
+  color: white; /* White color for text */
+}
+.content-text {
+  font-family: "Roboto", serif; /* Use Cormorant Garamond for content */
+  font-size: 40px; /* Define the font size */
+  color: rgb(96, 4, 4); /* Dark red color */
+  font-weight: 800; /* Make the font thicker and bolder */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add a subtle shadow for more emphasis */
+}
