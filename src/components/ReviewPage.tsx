@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Header from "./Header"; // Import Header
 import Footer from "./Footer"; // Import Footer
-import { Link } from "react-router-dom";
 
 const bchatBackendUrl = process.env.REACT_APP_BCHAT_BACKEND_URL_JAVASCRIPT;
 
@@ -31,7 +30,6 @@ const ReviewPage = () => {
           }),
         });
 
-        const data = await response.json();
         if (response.ok) {
           alert("Thank you for your feedback!");
           // Clear the form after submission

@@ -3,9 +3,6 @@ import Footer from "./Footer";
 import img from "./images.png";
 import Header from "./Header";
 import { Link } from "react-router-dom"; // Adjust the import path as necessary
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import App from "../App"; // Adjust the import path as necessary
-import NewPage from "./NewPage";
 
 const HomePage: React.FC = () => {
   const handleRedirect = () => {
