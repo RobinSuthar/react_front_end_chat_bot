@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Header"; // Import Header
 import Footer from "./Footer"; // Import Footer
-import img from "./images.png";
 import { Link } from "react-router-dom";
 
 const NewPage = () => {
